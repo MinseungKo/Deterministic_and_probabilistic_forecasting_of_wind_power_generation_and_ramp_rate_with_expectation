@@ -1,5 +1,5 @@
-# Concurrent deterministic and probabilistic day-ahead forecasting of wind power generation and ramp rate with convolutional neural networks
-Codes for "Concurrent deterministic and probabilistic day-ahead forecasting of wind power generation and ramp rate with convolutional neural networks."
+# Deterministic and probabilistic forecasting of wind power generation and ramp rate with expectation-implemented deep learning
+Codes for "Deterministic and probabilistic forecasting of wind power generation and ramp rate with expectation-implemented deep learning."
 
   ## 0. Dataset
   We used publicly available data from ERCOT for the training and test data on wind power generation and ramp rate. The dataset contains the hourly aggregated wind and solar power output for ERCOT from 2020 to 2023 and is included as the .csv files. 
