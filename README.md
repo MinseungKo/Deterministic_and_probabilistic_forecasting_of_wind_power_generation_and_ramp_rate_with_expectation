@@ -2,16 +2,19 @@
 Codes for "Deterministic and probabilistic forecasting of wind power generation and ramp rate with expectation-implemented deep learning."
 
 # Overview
-The overall framework of this code and paper is like follow:
+The overall framework of this code and paper is as follows:
 ![fig 1](https://github.com/user-attachments/assets/3dd5a5e4-77b9-4c84-802e-ff5dac1430a7)
+
+As a final result, the deterministic forecasting result on wind power generation and deterministic & probabilistic forecasting result on ramp rate can be achieved. The example of ramp rate forecasting result is as follows:
+[Prob_average ramp](https://github.com/user-attachments/assets/03e05100-0272-499a-8be2-03814bd2a802)
 
 # System Requirements
 ## Hardware
 This code was tested on a computer system with an AMD Ryzen-7 3700X 3.60-GHz CPU and NVIDIA GeForce RTX 2080 SUPER GPU.
-GPU is highly recommended for this code. For the computer without GPU, please remove the GPU-related code such as with tf.device('/gpu:0).
+GPU is highly recommended for running this code. For the computer without GPU, please remove the GPU-related code such as with tf.device('/gpu:0).
 ## Software
 ### OS
-This code was implemented in *Windows 10*. The conda-based virtual jupyter notebook environment is used for the testing. With adequate version control, this code may be able to be implemented in *Linux*
+This code was implemented in *Windows 10*. The conda-based virtual jupyter notebook environment is used for the testing. With adequate version control, this code may be able to be implemented in *Linux*.
 ### Python Dependencies
 This code mainly depends on the following Python packages:
 ```
@@ -25,7 +28,6 @@ pandas
 seaborn
 statsmodels
 ```
-
 
 # Code Description
 ## 0. Dataset
