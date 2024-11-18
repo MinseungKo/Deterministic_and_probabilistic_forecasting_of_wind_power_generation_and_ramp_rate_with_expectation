@@ -36,7 +36,7 @@ statsmodels
 We used publicly available data from ERCOT for the training and test data on wind power generation and ramp rate. The dataset contains the hourly aggregated wind and solar power output for ERCOT from 2020 to 2023 and is included as the .csv files. 
 For additional information, see https://www.ercot.com/mp/data-products/data-product-details?id=PG7-126-M.
 ## 1. Basic Daily Forecasting
-Numbers in the .ipynb files represent the order of the proposed forecasting algorithms. You can skip files #1 and #2 by using the .h5 files and directly go to File #3.
+Numbers in the .ipynb files represent the order of the proposed forecasting algorithms. You can skip files #1 and #2 by using the .h5 files and directly go to File #3. Running all the files below may take several hours, whereas utilizing the .h5 files allows the code to execute within tens of minutes.
 ### Brief description of each code
 1. Generation Forecasting.ipynb
   - Code for wind power generation forecasting. The results are "Basic Model Final.h5" and "Error Learning Model.h5" files.
