@@ -3,8 +3,7 @@ Codes for "Deterministic and probabilistic forecasting of wind power generation 
 
 # Overview
 The overall framework of this code and paper is as follows:
-![fig 1](https://github.com/user-attachments/assets/3dd5a5e4-77b9-4c84-802e-ff5dac1430a7)
-
+<img src="https://github.com/user-attachments/assets/3dd5a5e4-77b9-4c84-802e-ff5dac1430a7" width="200" height="400"/>
 As a final result, the deterministic forecasting result on wind power generation and deterministic & probabilistic forecasting result on ramp rate can be achieved. The example of ramp rate forecasting result is as follows:
 ![Prob_average ramp](https://github.com/user-attachments/assets/030b9845-abbe-406d-a0cf-7cc41cc64b20)
 
