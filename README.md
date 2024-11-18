@@ -1,6 +1,10 @@
 # Deterministic and probabilistic forecasting of wind power generation and ramp rate with expectation-implemented deep learning
 Codes for "Deterministic and probabilistic forecasting of wind power generation and ramp rate with expectation-implemented deep learning."
 
+# Overview
+The overall framework of this code and paper is like follow:
+![fig 1](https://github.com/user-attachments/assets/3dd5a5e4-77b9-4c84-802e-ff5dac1430a7)
+
 # System Requirements
 ## Hardware
 This code was tested on a computer system with an AMD Ryzen-7 3700X 3.60-GHz CPU and NVIDIA GeForce RTX 2080 SUPER GPU.
