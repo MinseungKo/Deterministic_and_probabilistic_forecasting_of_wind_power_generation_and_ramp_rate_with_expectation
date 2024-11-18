@@ -4,7 +4,7 @@ Codes for "Deterministic and probabilistic forecasting of wind power generation 
 # Overview
 The overall framework of this code and paper is as follows:
 
-<img src="https://github.com/user-attachments/assets/3dd5a5e4-77b9-4c84-802e-ff5dac1430a7" width="600" height="650"/>
+<img src="https://github.com/user-attachments/assets/3dd5a5e4-77b9-4c84-802e-ff5dac1430a7" width="600" height="600"/>
 
 As a final result, the deterministic forecasting result on wind power generation and deterministic & probabilistic forecasting result on ramp rate can be achieved. The example of ramp rate forecasting result is as follows:
 
@@ -13,7 +13,7 @@ As a final result, the deterministic forecasting result on wind power generation
 # System Requirements
 ## Hardware
 This code was tested on a computer system with an AMD Ryzen-7 3700X 3.60-GHz CPU and NVIDIA GeForce RTX 2080 SUPER GPU.
-GPU is highly recommended for running this code. For the computer without GPU, please remove the GPU-related code such as with tf.device('/gpu:0).
+GPU is highly recommended for running this code. For the computer without GPU, please remove the GPU-related code, such as with tf.device('/gpu:0).
 ## Software
 ### OS
 This code was implemented in *Windows 10*. The conda-based virtual jupyter notebook environment is used for the testing. With adequate version control, this code may be able to be implemented in *Linux*.
@@ -30,6 +30,9 @@ pandas
 seaborn
 statsmodels
 ```
+
+# Installation
+Setup file is provided.
 
 # Code Description
 ## 0. Dataset
