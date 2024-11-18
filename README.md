@@ -4,11 +4,11 @@ Codes for "Deterministic and probabilistic forecasting of wind power generation 
 # Overview
 The overall framework of this code and paper is as follows:
 
-<img src="https://github.com/user-attachments/assets/3dd5a5e4-77b9-4c84-802e-ff5dac1430a7" width="600" height="600"/>
+<img src="https://github.com/user-attachments/assets/3dd5a5e4-77b9-4c84-802e-ff5dac1430a7" width="600" height="500"/>
 
 As a final result, the deterministic forecasting result on wind power generation and deterministic & probabilistic forecasting result on ramp rate can be achieved. The example of ramp rate forecasting result is as follows:
 
-<img src="https://github.com/user-attachments/assets/030b9845-abbe-406d-a0cf-7cc41cc64b20" width="500" height="500"/>
+<img src="https://github.com/user-attachments/assets/030b9845-abbe-406d-a0cf-7cc41cc64b20" width="400" height="400"/>
 
 # System Requirements
 ## Hardware
@@ -32,7 +32,9 @@ statsmodels
 ```
 
 # Installation
-Setup file is provided.
+Although Setup file is provided, we built our own conda-based jupyter notebook environment for our test.
+For more detailed installation of conda-based jupyter notebook, please refer to: https://stackoverflow.com/questions/58068818/how-to-use-jupyter-notebooks-in-a-conda-environment
+We chose Option 2 of the reference and took about 1 hour to set up the environment.
 
 # Code Description
 ## 0. Dataset
